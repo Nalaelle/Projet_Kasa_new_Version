@@ -1,0 +1,19 @@
+footer {
+    padding: 20px;
+    margin-top: 60px;
+    height: 150px;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+footer > span {
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    footer > span {
+        font-size: 12px;
+    }
+}
